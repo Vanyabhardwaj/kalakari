@@ -1,0 +1,130 @@
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+#img-sect h2{ color: #fff; }
+.container-fluid{
+  padding: 7% 15%;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: lightyellow;
+}
+.centered {
+  font-size: 75px;
+  text-shadow: 2px 2px 4px white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bottom{
+  position: absolute;
+  font-size: 20px;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%);
+}
+/* navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+.nav-item{
+  font-size: 30px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+/* images */
+.titleimage{
+   width: 60%;
+}
+.showphto{
+  width: 80%;
+  border-radius: 10px;
+}
+.onair{
+  position: absolute;
+  top: 40%;
+  left: 2%;
+}
+.onair2{
+  position: absolute;
+  top: 70%;
+  left: 83%;
+}
+.imge{
+    width: 90%;
+    padding: 0 0 0 17%;
+}
+.imge2{
+  width: 90%;
+  padding: 0 17% 0 0;
+}
+.jokee{
+  background-color: lightyellow;
+  margin: 10% 0 10% 0;
+  /* padding: 8% 3% 8% 3%; */
+ }
+.jokee h1{ color: grey; }
+#feedbak img{
+  width: 20%;
+  border-radius: 100%;
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+#title{
+  background-color: orange;
+  text-align: center;
+  color: #fff;
+}
+#showarea{
+  text-align: center;
+  background-color: #fff;
+  padding: 4% 3% 4%;
+}
+#img-sect{
+  text-align: center;
+  background-color: #fa8072;
+  padding: 3% 2% 3%;
+}
+#feedbak{
+  text-align: center;
+  background-color: lightyellow;
+  padding-top: 10px ;
+  padding-bottom: 10px;
+}
+#footer{
+  background-color: orange;
+  text-align: center;
+}
+@media (max-width: 999px) {
+  .centered{ font-size: 33px; }
+  .bottom{ font-size: 15px;
+          top: 80%;         }
+  .titleimage{ width: 100%; }
+  .showphto{ width: 90%;  padding-left: 10%; }
+  .onair{  visibility: hidden; }
+  .onair2{  visibility: hidden; }
+  .imge{ width: 100%; }
+}
